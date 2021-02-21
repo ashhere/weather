@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+
+.card{
+  min-height: 60vh;
+  max-width: 50vw;
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+  border-radius: 10px;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  margin: 150px auto;
+  
+}
+
+input {
+  height: 40px;
+  min-width: 30vw;
+  max-width: 40vw;
+  margin: 50px 0px 0px 0px;
+  font-size: 14px;
+  font-size: large;
+  border: 0;
+  border-radius: 12px;
+  
+  
+  
+}
+
+.input:focus{
+  outline: none;
+
+
+
+}
+
+ .input-btn:focus{
+ 
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 12px;
+  background-color: rgb(27, 154, 158);
+color: black;
+  
+}
+
+.input-btn{
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  border: 0;
+  color: brown;
+  font-size: large;
+  border-radius: 4px;
+
+
+}
+
+
+.info{
+  font-size: x-large;
+  display: flex;
+  margin-top: 40px;
+  font-family: 'Balsamiq Sans', cursive;
+font-family: 'Martel', serif;
+line-height: 40px;
+word-spacing: 15px;
+justify-content: center;
+align-items: center;
+
+  
+}
+
+h1{
+  font-family: 'Balsamiq Sans', cursive;
+font-family: 'Martel', serif;
+font-family: 'Play', sans-serif;
+font-family: 'Sawarabi Mincho', sans-serif;
+  margin-top: 10px;
+  font-size: 50px;
+  color: purple;
+}
+
+.cloud{
+  height: 300px;
+}
+
+.back{
+  display: flex;
+  flex-direction: column;
+
+ 
+  flex-wrap: wrap;
+}
+
+.No-data{
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: 'Roboto Slab', serif;
+  color: azure;
+}
